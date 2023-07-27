@@ -1,0 +1,251 @@
+/* Set the font family and line height for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    /* Set the background image */
+    background-image: url("Back1.jpeg");
+}
+
+/* Styles for the resume section */
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styles for the name section */
+.name {
+    margin-bottom: 5px;
+}
+
+/* Styles for the contact section */
+.contact {
+    margin-bottom: 20px;
+}
+
+/* Styles for unordered lists */
+ul {
+    list-style-type: disc;
+    margin-left: 0px;
+}
+
+/* Styles for anchor links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Styles for anchor links on hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the header section */
+header {
+    padding: 1px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+/* Styles for the navigation links */
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styles for individual navigation links */
+nav a {
+    margin: 10px;
+    color: white;
+    padding: 5px;
+    background-color: grey;
+    border: 1px solid white; /* Add this line to set the border */
+    border-radius: 7px;
+}
+
+/* Styles for the footer section */
+footer {
+    padding: 1px;
+    text-align: center;
+    background-color: black;
+    position: sticky;
+    color: whitesmoke;
+}
+
+/* Styles for the box section */
+.Box {
+    font-size: 10px;
+    background-color: grey;
+    color: white;
+    box-shadow: 5px 5px 25px 8px rgb(6, 9, 134);
+    margin: 50px;
+    padding: 10px;
+    width: 40%;
+}
+
+/* Styles for the box container */
+.BoxContainer {
+    
+    
+    margin: 10px;
+    background-color: black;
+    padding: 25px;
+    
+}
+
+/* Styles for the box divider section */
+.BoxDivider {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    flex: 1;
+}
+
+/* Styles for heading tags */
+h1 { /* Define styles for h1 tag if needed */
+}
+
+h2 { /* Define styles for h2 tag if needed */
+}
+
+/* Styles for h6 tag */
+h6 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0px;
+    margin: 5px;
+}
+
+/* Media query for screens with max width of 767px */
+@media (max-width: 767px) {
+    /* Styles for BoxDivider when screen is smaller */
+    .BoxDivider {
+        display: flex;
+        justify-content: center; /* To center the boxes horizontally */
+        align-items: flex-start; /* To align the boxes from the top */
+        flex-wrap: wrap; /* To allow the boxes to wrap to a new line */
+    }
+
+    /* Adjust the width of Box when screen is smaller */
+    .Box {
+        width: 80%;
+    }
+
+    .schedule-table{
+        font-size: 10px;
+    }
+}
+
+/* Styles for the class container */
+.ClassContainer {
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Styles for individual class boxes */
+.ClassBox {
+    text-align: center;
+    color: white;
+    background-color: #4c4bb4;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+/* Styles for the schedule table */
+.schedule-table {
+    
+   width: 100%; 
+    margin-top: 20px;
+    text-align: center;
+    font-size: .6rem;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #ccc;
+    padding: 0px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #020000;
+    color: aliceblue;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #0f0404;
+    color: aliceblue;
+}
+
+.schedule-table td:first-child {
+    font-weight: bold;
+}
+
+/* Styles for the table */
+table {
+    background-color: #4c4bb4;
+    color: aliceblue;
+}
+
+/* Styles for the form section */
+.form-container {
+    background-color: rgb(227, 227, 227);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the white line */
+.white-line {
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
+/* Styles for the form container */
+.FormContainer {
+    background-color: black;
+    padding: 25px;
+    margin: 10px;
+}
